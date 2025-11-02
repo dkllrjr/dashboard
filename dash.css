@@ -1,14 +1,26 @@
+@font-face {
+    font-family: 'Jacquard12';
+    src: url('fonts/Jacquard_12/Jacquard12-Regular.ttf'),
+}
+
+@font-face {
+    font-family: 'BigBlueTerm';
+    src: url('fonts/BigBlueTerm/BigBlueTermPlusNerdFontMono-Regular.ttf'),
+}
+
 body {
-    font-family: sans-serif;
-    background-color: #9E8EB5;
-    color: #FFFFFF;
+    font-family: BigBlueTerm;
+    background-color: #292724;
+    color: #ddcba6;
 }
 
 h1 {
-    font-size: 60px;
+    font-family: BigBlueTerm;
+    font-size: 80px;
 }
 
 h2 {
+    font-family: BigBlueTerm;
     font-size: 40px;
 }
 
@@ -20,4 +32,15 @@ h2 {
 .icon {
     width: 100px;
     padding: 8px;
+}
+
+.jacquard12 a {
+    font-family: Jacquard12;
+    font-size: 180px;
+    text-decoration: none;
+    color: #ffb380;
+    border: solid 10px #ddcba6;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 24px;
 }
