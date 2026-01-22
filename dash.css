@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Jacquard12';
-    src: url('fonts/Jacquard_12/Jacquard12-Regular.ttf'),
+    font-family: 'Jacquard';
+    src: url('fonts/Jacquard/Jacquard12-Regular.ttf'),
 }
 
 @font-face {
@@ -34,8 +34,8 @@ h2 {
     padding: 8px;
 }
 
-.jacquard12 a {
-    font-family: Jacquard12;
+.jacquard a {
+    font-family: Jacquard;
     font-size: 180px;
     text-decoration: none;
     color: #ffb380;
